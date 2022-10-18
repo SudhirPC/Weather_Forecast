@@ -1,4 +1,5 @@
-let key="e4c70ce6a6821649a416cb9521d5f4f8";
+// let key="e4c70ce6a6821649a416cb9521d5f4f8";
+let key="099cd8cc49e43edc28b3d45fb030cac1"
 
 let iFrame=document.getElementById("gmap_canvas")
 
@@ -33,7 +34,7 @@ let container=document.getElementById("container")
 }
 
    function showWeather(data){
-
+      console.log("data",data)
    container.innerHTML=""
        console.log("data:",data)
 
